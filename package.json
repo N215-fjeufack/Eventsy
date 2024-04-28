@@ -7,13 +7,13 @@
     "lib": "lib"
   },
   "scripts": {
-    "compile": "css/styles.css scss/styles.scss -w",
+    "compile": "sass scss/styles.scss css/styles.css -w",
     "serve": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.75.0"
+    "sass": "^1.71.0"
   }
 }
