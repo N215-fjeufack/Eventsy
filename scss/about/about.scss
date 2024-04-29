@@ -1,0 +1,34 @@
+.about {
+  max-width: $content-width;
+  // min-height: 20px;
+  // background-color: red;
+  margin: 0 auto;
+  padding-bottom: 95px;
+  .hero {
+    width: 979.5px;
+    height: 378.75px;
+    background-color: $site-yellow;
+    background-image: url(../images/about-hero.png);
+    // opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 85.5px;
+  }
+
+  .title {
+    width: 229px;
+    height: 35px;
+    border-bottom: 2px solid black;
+    margin: 36.5px 0;
+    h1 {
+      font-size: 25px;
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+  }
+  p {
+    font-size: 16px;
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+  }
+}

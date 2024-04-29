@@ -1,0 +1,56 @@
+.gallery {
+  max-width: $content-width;
+  margin: 0 auto;
+  .title {
+    width: 229px;
+    height: 35px;
+    border-bottom: 2px solid black;
+    margin: 36.5px 0;
+    h1 {
+      font-size: 25px;
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+  }
+
+  .image-gallery {
+    max-width: $content-width;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 0;
+    margin-bottom: 60px;
+
+    .box-1 {
+      width: 489px;
+      height: 187px;
+      background-color: $site-yellow;
+      background-image: url(../images/1.png);
+    }
+    .box-2 {
+      width: 187px;
+      height: 187px;
+      background-color: $site-pink;
+      background-image: url(../images/2.png);
+    }
+    .box-3 {
+      width: 265px;
+      height: 187px;
+      background-color: $site-green;
+      background-image: url(../images/3.png);
+    }
+    .box-4 {
+      width: 603px;
+      height: 306px;
+      background-color: $site-purple;
+      background-image: url(../images/4.png);
+    }
+
+    .box-5 {
+      width: 355px;
+      height: 306px;
+      background-color: $site-blue;
+      background-image: url(../images/5.png);
+    }
+  }
+}
