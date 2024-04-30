@@ -1,0 +1,55 @@
+.blog-pages {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding-bottom: 151px;
+
+  .hero {
+    width: 100%;
+    height: 300px;
+    background-color: $site-pink;
+    background-image: url(../images/pink-blog-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+
+    .date {
+      width: 155.25px;
+      height: 155.25px;
+      background-color: $site-pink;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+        margin-top: 12px;
+      }
+
+      p {
+        font-size: 31px;
+        font-weight: lighter;
+        color: white;
+      }
+    }
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: $site-pink;
+    margin-top: 57px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 33px;
+  }
+}

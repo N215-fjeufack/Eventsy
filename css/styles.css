@@ -790,4 +790,125 @@ footer h2 {
   color: #ee4367;
 }
 
+.blog-pages {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 151px;
+}
+.blog-pages .hero {
+  width: 100%;
+  height: 300px;
+  background-color: #ee4367;
+  background-image: url(../images/pink-blog-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+.blog-pages .hero .date {
+  width: 155.25px;
+  height: 155.25px;
+  background-color: #ee4367;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-pages .hero .date h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  margin-top: 12px;
+}
+.blog-pages .hero .date p {
+  font-size: 31px;
+  font-weight: lighter;
+  color: white;
+}
+.blog-pages h1 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ee4367;
+  margin-top: 57px;
+  margin-bottom: 30px;
+}
+.blog-pages p {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 33px;
+}
+
+.contact {
+  width: 980px;
+  margin: 0 auto;
+}
+.contact .header {
+  width: 229px;
+  height: 35px;
+  border-bottom: 2px solid black;
+  font-size: 25px;
+  color: black;
+  margin-top: 65.5px;
+}
+.contact .container {
+  width: 100%;
+  min-height: 442px;
+  margin-top: 65.5px;
+  margin-bottom: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .container .left {
+  width: 50%;
+  height: 442px;
+}
+.contact .container .left .box-1 {
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-bottom: 21px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.contact .container .left .box-1 p {
+  font-size: 16px;
+  color: black;
+  opacity: 0.5;
+}
+.contact .container .left .box-2 {
+  width: 100%;
+  height: 199px;
+  background-color: #f5f5f5;
+  margin-bottom: 21px;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.contact .container .left .box-2 p {
+  font-size: 16px;
+  color: black;
+  opacity: 0.5;
+}
+.contact .container .left .send {
+  width: 167px;
+  height: 60px;
+  background-color: #ee4367;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+.contact .container .right {
+  width: 44%;
+  height: 442px;
+  background-color: yellow;
+  background-image: url(/images/map.png);
+}
+
 /*# sourceMappingURL=styles.css.map */
